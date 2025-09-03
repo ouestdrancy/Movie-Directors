@@ -1,0 +1,27 @@
+@media(max-width:600px) {
+  body {
+    text-align: left
+  }
+}
+
+header {
+  font-weight: bold;
+  font-size: 2rem
+}
+
+img {
+  height: 300px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+.trailer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
